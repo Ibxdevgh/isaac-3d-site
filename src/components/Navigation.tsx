@@ -55,8 +55,19 @@ export default function Navigation() {
             ))}
           </div>
 
-          {/* Order CTA */}
-          <div className="hidden md:flex items-center gap-4">
+          {/* Right actions */}
+          <div className="hidden md:flex items-center gap-3">
+            <a
+              href="https://x.com/isaac0app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-9 h-9 flex items-center justify-center rounded-full bg-weave-gray-50 text-weave-gray-500 hover:bg-weave-gray-100 hover:text-weave-black transition-all duration-200"
+              aria-label="Follow on X"
+            >
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M12.6.75h2.454l-5.36 6.126L16 15.25h-4.937l-3.867-5.055-4.425 5.055H.316l5.733-6.554L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+              </svg>
+            </a>
             <a
               href="#order"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-weave-black text-white text-[13px] font-medium tracking-[-0.01em] rounded-full hover:bg-weave-gray-800 transition-colors duration-200"
